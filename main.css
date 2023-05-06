@@ -18,13 +18,13 @@
 }
 #loading video{
     width: 100%;
-    max-width: 300px;
+    max-width: 150px;
 }
 #loading p{
     color: #FFFFFF;
     font-family: 'Jura', sans-serif;
-    font-size: 30px;
-    margin-top: 60px;
+    font-size: 20px;
+    margin-top: 50px;
 }
 #loading #loading-text{
     position: relative;
@@ -79,8 +79,10 @@
 }
 .content .logo{
     width: 80%;
-    max-width: 800px;
+    max-width: 600px;
     animation: logo 5s forwards;
+    animation-delay: 3.5s;
+    opacity: 0;
 }
 @keyframes logo{
     0%{ opacity: 0; }
@@ -88,8 +90,8 @@
 }
 
 h1{
-    margin-top: 100px;
-    font-size: 1.5rem;
+    margin-top: 80px;
+    font-size: 1.2rem;
     animation: embreve 4s infinite;
     animation-delay: 2s;
     opacity: 0;
@@ -126,6 +128,6 @@ h1{
     }
 
     h1{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
